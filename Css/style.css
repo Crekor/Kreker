@@ -1,0 +1,781 @@
+html {
+  font-size: 10px;
+}
+@font-face {
+  font-family: 'NotaBene-XBoldOblique';
+  src: url('../fonts/NotaBene-XBoldOblique.eot');
+  src: url('../fonts/NotaBene-XBoldOblique.eot?#iefix') format('embedded-opentype'), url('../fonts/NotaBene-XBoldOblique.woff') format('woff'), url('../fonts/NotaBene-XBoldOblique.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotaBene-XLight';
+  src: url('../fonts/NotaBene-XLight.eot');
+  src: url('../fonts/NotaBene-XLight.eot?#iefix') format('embedded-opentype'), url('../fonts/NotaBene-XLight.woff') format('woff'), url('../fonts/NotaBene-XLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotaBene-ThinOblique';
+  src: url('../fonts/NotaBene-ThinOblique.eot');
+  src: url('../fonts/NotaBene-ThinOblique.eot?#iefix') format('embedded-opentype'), url('../fonts/NotaBene-ThinOblique.woff') format('woff'), url('../fonts/NotaBene-ThinOblique.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotaBene-XLightOblique';
+  src: url('../fonts/NotaBene-XLightOblique.eot');
+  src: url('../fonts/NotaBene-XLightOblique.eot?#iefix') format('embedded-opentype'), url('../fonts/NotaBene-XLightOblique.woff') format('woff'), url('../fonts/NotaBene-XLightOblique.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotaBene-XBold';
+  src: url('../fonts/NotaBene-XBold.eot');
+  src: url('../fonts/NotaBene-XBold.eot?#iefix') format('embedded-opentype'), url('../fonts/NotaBene-XBold.woff') format('woff'), url('../fonts/NotaBene-XBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotaBene';
+  src: url('../fonts/NotaBene-Medium.eot');
+  src: url('../fonts/NotaBene-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/NotaBene-Medium.woff') format('woff'), url('../fonts/NotaBene-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotaBene-LightOblique';
+  src: url('../fonts/NotaBene-LightOblique.eot');
+  src: url('../fonts/NotaBene-LightOblique.eot?#iefix') format('embedded-opentype'), url('../fonts/NotaBene-LightOblique.woff') format('woff'), url('../fonts/NotaBene-LightOblique.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotaBene-Normal';
+  src: url('../fonts/NotaBene-Normal.eot');
+  src: url('../fonts/NotaBene-Normal.eot?#iefix') format('embedded-opentype'), url('../fonts/NotaBene-Normal.woff') format('woff'), url('../fonts/NotaBene-Normal.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotaBene-MediumOblique';
+  src: url('../fonts/NotaBene-MediumOblique.eot');
+  src: url('../fonts/NotaBene-MediumOblique.eot?#iefix') format('embedded-opentype'), url('../fonts/NotaBene-MediumOblique.woff') format('woff'), url('../fonts/NotaBene-MediumOblique.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotaBene';
+  src: url('../fonts/NotaBene-Bold.eot');
+  src: url('../fonts/NotaBene-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/NotaBene-Bold.woff') format('woff'), url('../fonts/NotaBene-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotaBene-NormalOblique';
+  src: url('../fonts/NotaBene-NormalOblique.eot');
+  src: url('../fonts/NotaBene-NormalOblique.eot?#iefix') format('embedded-opentype'), url('../fonts/NotaBene-NormalOblique.woff') format('woff'), url('../fonts/NotaBene-NormalOblique.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotaBene';
+  src: url('../fonts/NotaBene-Light.eot');
+  src: url('../fonts/NotaBene-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/NotaBene-Light.woff') format('woff'), url('../fonts/NotaBene-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotaBene-BoldOblique';
+  src: url('../fonts/NotaBene-BoldOblique.eot');
+  src: url('../fonts/NotaBene-BoldOblique.eot?#iefix') format('embedded-opentype'), url('../fonts/NotaBene-BoldOblique.woff') format('woff'), url('../fonts/NotaBene-BoldOblique.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotaBene';
+  src: url('../fonts/NotaBene-Thin.eot');
+  src: url('../fonts/NotaBene-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/NotaBene-Thin.woff') format('woff'), url('../fonts/NotaBene-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+.NotaBene-XBoldOblique {
+  font-family: 'NotaBene-XBoldOblique';
+  font-weight: bold;
+  font-style: normal;
+}
+.NotaBene-XLight {
+  font-family: 'NotaBene-XLight';
+  font-weight: 300;
+  font-style: normal;
+}
+.NotaBene-ThinOblique {
+  font-family: 'NotaBene-ThinOblique';
+  font-weight: 100;
+  font-style: normal;
+}
+.NotaBene-XLightOblique {
+  font-family: 'NotaBene-XLightOblique';
+  font-weight: 300;
+  font-style: normal;
+}
+.NotaBene-XBold {
+  font-family: 'NotaBene-XBold';
+  font-weight: bold;
+  font-style: normal;
+}
+.NotaBene-Medium {
+  font-family: 'NotaBene';
+  font-weight: 500;
+  font-style: normal;
+}
+.NotaBene-LightOblique {
+  font-family: 'NotaBene-LightOblique';
+  font-weight: 300;
+  font-style: normal;
+}
+.NotaBene-Normal {
+  font-family: 'NotaBene-Normal';
+  font-weight: 300;
+  font-style: normal;
+}
+.NotaBene-MediumOblique {
+  font-family: 'NotaBene-MediumOblique';
+  font-weight: 500;
+  font-style: normal;
+}
+.NotaBene-Bold {
+  font-family: 'NotaBene';
+  font-weight: bold;
+  font-style: normal;
+}
+.NotaBene-NormalOblique {
+  font-family: 'NotaBene-NormalOblique';
+  font-weight: 300;
+  font-style: normal;
+}
+.NotaBene-Light {
+  font-family: 'NotaBene';
+  font-weight: 300;
+  font-style: normal;
+}
+.NotaBene-BoldOblique {
+  font-family: 'NotaBene-BoldOblique';
+  font-weight: bold;
+  font-style: normal;
+}
+.NotaBene-Thin {
+  font-family: 'NotaBene';
+  font-weight: 100;
+  font-style: normal;
+}
+.Open-Sans {
+  font-family: 'Open Sans', sans-serif;
+}
+.row {
+  margin-right: 350px;
+  margin-left: 350px;
+}
+.Head {
+  width: 100%;
+  height: 70rem;
+  padding-top: 2rem;
+  display: block;
+  background: url(../img/fonts.png) no-repeat;
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
+  background-size: cover;
+  border-bottom: 2rem solid #26c6da;
+}
+.Head .shapka {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 5rem;
+}
+.Head_logo {
+  display: inline-block;
+  width: 20rem;
+}
+.Head ul {
+  display: inline-block;
+  margin-left: 10rem;
+  vertical-align: top;
+}
+.Head ul .menu {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: right;
+  display: inline-block;
+  color: #fff;
+  margin-left: 3rem;
+  font-size: 1.6rem;
+  padding-bottom: 1.5rem;
+}
+.Head ul .menu:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #26c6da;
+}
+.Head ul .menu:hover:last-child {
+  border-bottom: none;
+}
+.Head .slider_container {
+  width: 100%;
+  height: 50rem;
+  display: block;
+  position: relative;
+  margin-top: 10rem;
+  color: #fff;
+  overflow: hidden;
+}
+.Head .slider_container h2 {
+  font-family: 'NotaBene-XLightOblique';
+  font-weight: 300;
+  font-style: normal;
+  line-height: 8rem;
+  font-size: 12rem;
+}
+.Head .slider_container h2 span {
+  font-family: 'NotaBene-BoldOblique';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 8rem;
+}
+.Head .slider_container h2 p {
+  font-family: 'NotaBene-Normal';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 3rem;
+  margin-top: 0rem;
+}
+.Head .slider_container h3 {
+  font-family: 'NotaBene';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3.5rem;
+  margin-top: -1rem;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 1rem;
+  width: 60%;
+}
+.Head .slider_container .items {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+.Head .slider_container .intem {
+  width: 300px;
+  height: 100px;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #ff0000;
+}
+.Head .slider_nav span {
+  -webkit-transition: all .6s;
+  transition: all .6s;
+  background: #fff;
+  margin: 10px 10px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: none;
+  display: inline-block;
+}
+.Head .slider_nav .point {
+  -webkit-transform: scale(1.6);
+          transform: scale(1.6);
+  background-color: #1aa4b5;
+}
+.About {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 75rem;
+  background-color: #fafafa;
+}
+.About-us {
+  position: relative;
+  display: inline-block;
+  width: 65%;
+  margin-top: 5rem;
+}
+.About-us h3 {
+  font-family: 'NotaBene';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #363636;
+}
+.About-us h4 {
+  font-family: 'NotaBene';
+  font-weight: 500;
+  font-style: normal;
+  color: #777777;
+  font-size: 1.8rem;
+}
+.About-us p {
+  font-family: 'NotaBene-Normal';
+  font-weight: 300;
+  font-style: normal;
+  color: #adadad;
+  font-size: 1.46rem;
+}
+.About-us p span {
+  font-family: 'NotaBene-NormalOblique';
+  font-weight: 300;
+  font-style: normal;
+  color: #1aa4b5;
+  border-bottom: 1px solid #1aa4b5;
+}
+.About-us h5 {
+  font-family: 'NotaBene-Normal';
+  font-weight: 300;
+  font-style: normal;
+  color: #163337;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+.About-us .University {
+  display: block;
+  padding-left: 0;
+}
+.About-us .University li {
+  display: block;
+  height: 8rem;
+  background-color: #fff;
+  margin: 2px;
+  -webkit-box-shadow: 0px 1px 4px -2px #333333;
+          box-shadow: 0px 1px 4px -2px #333333;
+}
+.About-us .University li .icons {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  background-color: #26c6da;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 8rem;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+}
+.About-us .University li .icons i.fa.fa-university {
+  font-size: 2rem;
+  position: absolute;
+  color: #fff;
+  top: 1.3rem;
+  left: 1.4rem;
+}
+.About-us .University li h6 {
+  font-family: 'NotaBene-Normal';
+  font-weight: 300;
+  font-style: normal;
+  display: inline-block;
+  color: #565656;
+  width: 80%;
+  font-size: 1.6rem;
+  margin-top: 2.2rem;
+  margin-left: 10rem;
+}
+.About-us .University li h6 b {
+  font-family: 'NotaBene';
+  font-weight: 500;
+  font-style: normal;
+  color: #565656;
+}
+.About .Video_post {
+  width: 30%;
+  position: relative;
+  display: inline-block;
+  height: 60rem;
+  margin-left: 2rem;
+}
+.About .Video_post h3 {
+  font-family: 'NotaBene';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #363636;
+  margin-bottom: 5rem;
+}
+.About .Video_post .consol {
+  display: block;
+  width: 100%;
+  height: 45rem;
+  background-color: #1aa4b5;
+}
+.About .Video_post .consol img.zacaz {
+  width: 98%;
+  margin-left: 4px;
+  cursor: pointer;
+  height: 25rem;
+}
+.About .Video_post .consol h4 {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  margin-left: 3rem;
+  font-size: 1.7rem;
+  width: 80%;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid;
+}
+.About .Video_post .consol p {
+  font-family: 'NotaBene-Normal';
+  font-weight: 300;
+  font-style: normal;
+  margin-left: 3rem;
+  width: 80%;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.About .Video_post .consol h5 {
+  font-family: 'NotaBene-NormalOblique';
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+  margin-left: 3rem;
+  font-size: 1.5rem;
+  width: 24%;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+}
+.services {
+  width: 100%;
+  height: 130rem;
+  position: relative;
+  display: block;
+  padding-top: 5rem;
+  background: url(../img/Pic_fons.png) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+.services h5 {
+  font-family: 'NotaBene-Normal';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 4rem;
+}
+.services h2 {
+  font-family: 'NotaBene-LightOblique';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 7rem;
+  text-transform: uppercase;
+}
+.services h2 span {
+  font-family: 'NotaBene-MediumOblique';
+  font-weight: 500;
+  font-style: normal;
+}
+.services ul {
+  padding-left: 0;
+}
+.services ul li {
+  vertical-align: top;
+  display: inline-block;
+  width: 35rem;
+  height: 35rem;
+  margin: 1rem;
+  background-color: #fff;
+  color: #434343;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(12, 40, 43, 0.42);
+          box-shadow: 0px 5px 10px 0px rgba(12, 40, 43, 0.42);
+}
+.services ul li .Icone {
+  position: absolute;
+  padding-top: 4rem;
+  margin-left: -3rem;
+}
+.services ul li h3 {
+  font-family: 'NotaBene-Normal';
+  font-weight: 300;
+  font-style: normal;
+  padding-top: 14rem;
+  font-size: 2rem;
+}
+.services ul li p {
+  font-family: 'NotaBene-LightOblique';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.6rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+.services ul li a {
+  font-family: 'NotaBene-Normal';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #434343;
+  display: block;
+  margin-top: 3rem;
+  opacity: .6;
+}
+.services ul li a:hover {
+  opacity: 1;
+}
+.services ul li a i {
+  text-decoration: none;
+  font-size: 1rem;
+}
+.services .request {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  display: block;
+  width: 25rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+  line-height: 5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.5rem;
+  height: 5rem;
+  background-color: #dce775;
+  opacity: 1;
+}
+.services .request:hover {
+  opacity: 0.8;
+}
+.last {
+  width: 100%;
+  height: 70rem;
+  padding-top: 10rem;
+  border-bottom: 2px solid #1aa4b5;
+}
+.last .latest {
+  width: 65%;
+  display: inline-block;
+  position: relative;
+  height: 70rem;
+}
+.last .latest h3 {
+  font-family: 'NotaBene';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #363636;
+}
+.last .latest .reqes {
+  margin-bottom: 3rem;
+  width: 100%;
+  height: 22rem;
+  display: inline-block;
+  background-color: #1aa4b5;
+}
+.last .latest .reqes img {
+  width: 35%;
+  display: inline-block;
+  height: 100%;
+}
+.last .latest .reqes .reqest {
+  display: inline-block;
+  width: 60%;
+  color: #fff;
+  vertical-align: top;
+}
+.last .latest .reqes .reqest h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  margin-left: 3rem;
+  width: 90%;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 2rem;
+  padding-right: 3rem;
+}
+.last .latest .reqes .reqest p {
+  padding-left: 3rem;
+  font-size: 1.5rem;
+  font-family: 'NotaBene-Normal';
+  font-weight: 300;
+  font-style: normal;
+  line-height: 2rem;
+}
+.last .latest .reqes .reqest:hover h4 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.last .twit {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  height: 70rem;
+  vertical-align: top;
+  margin-left: 2rem;
+}
+.last .twit h3 {
+  font-family: 'NotaBene';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #363636;
+}
+.last .twit .box {
+  padding: 2rem;
+  padding-top: 1rem;
+  width: 100%;
+  height: 45rem;
+  background-color: #fafafa;
+  display: block;
+}
+.last .twit .box .contexts {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 1rem;
+}
+.last .twit .box .contexts p {
+  font-family: 'NotaBene-Normal';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.7rem;
+}
+.last .twit .box .contexts a {
+  font-family: 'NotaBene-NormalOblique';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #0b9bad;
+  display: block;
+  padding-bottom: 1rem;
+}
+.last .twit .box .contexts span {
+  font-size: 1.5rem;
+}
+.Dert {
+  width: 100%;
+  height: 10rem;
+  margin-top: 5rem;
+}
+.Dert .info_last {
+  width: 50%;
+  display: inline-block;
+}
+.Dert .info_last p {
+  font-family: 'NotaBene-Normal';
+  font-weight: 300;
+  font-style: normal;
+  color: #adadad;
+  font-size: 1.46rem;
+}
+.Dert .info_last p span {
+  color: #1aa4b5;
+  border-bottom: 1px solid #1aa4b5;
+}
+.Dert .info_lasted {
+  width: 20%;
+  display: inline-block;
+  text-align: right;
+}
+.Dert .info_lasted p {
+  font-family: 'NotaBene-Normal';
+  font-weight: 300;
+  font-style: normal;
+  color: #adadad;
+  font-size: 1.46rem;
+  position: absolute;
+  right: 36rem;
+  margin-top: -3rem;
+}
+@media (max-width: 1366px) {
+  .row {
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+  .Head ul {
+    display: block;
+    vertical-align: top;
+    text-align: center;
+  }
+  .Head ul .menu {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+  }
+  .About .Video_post .consol {
+    height: 47rem;
+  }
+  .About .Video_post .consol h5 {
+    width: 28%;
+  }
+  .services {
+    height: 160rem;
+  }
+  .last .twit .box .contexts p {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 1280px) {
+  row {
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+  .Head ul .menu {
+    font-size: 1.3rem;
+  }
+  .About .Video_post .consol {
+    height: 47rem;
+    width: 110%;
+  }
+  .About .Video_post .consol h5 {
+    width: 31%;
+  }
+  .last .twit h3 {
+    width: 110%;
+  }
+  .Dert .info_lasted p {
+    right: 16rem;
+  }
+}
+@media (max-width: 1024px) {
+  .row {
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+  html {
+    font-size: 8px;
+  }
+  .Head {
+    background: url(../img/fonts.png) no-repeat 30%;
+  }
+  .Head ul {
+    width: 100%;
+    margin-left: 0rem;
+  }
+  .Head ul .menu {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    margin-left: 0;
+  }
+  .Dert .info_last p {
+    line-height: 2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .row {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .row {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 7rem;
+  }
+  .Head {
+    height: 75rem;
+  }
+}

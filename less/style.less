@@ -1,0 +1,811 @@
+*{
+
+}
+
+html{
+	font-size: 10px;
+}
+
+@font-face {
+	font-family: 'NotaBene-XBoldOblique';
+	src: url('../fonts/NotaBene-XBoldOblique.eot');
+	src: url('../fonts/NotaBene-XBoldOblique.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NotaBene-XBoldOblique.woff') format('woff'),
+		url('../fonts/NotaBene-XBoldOblique.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotaBene-XLight';
+	src: url('../fonts/NotaBene-XLight.eot');
+	src: url('../fonts/NotaBene-XLight.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NotaBene-XLight.woff') format('woff'),
+		url('../fonts/NotaBene-XLight.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotaBene-ThinOblique';
+	src: url('../fonts/NotaBene-ThinOblique.eot');
+	src: url('../fonts/NotaBene-ThinOblique.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NotaBene-ThinOblique.woff') format('woff'),
+		url('../fonts/NotaBene-ThinOblique.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotaBene-XLightOblique';
+	src: url('../fonts/NotaBene-XLightOblique.eot');
+	src: url('../fonts/NotaBene-XLightOblique.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NotaBene-XLightOblique.woff') format('woff'),
+		url('../fonts/NotaBene-XLightOblique.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotaBene-XBold';
+	src: url('../fonts/NotaBene-XBold.eot');
+	src: url('../fonts/NotaBene-XBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NotaBene-XBold.woff') format('woff'),
+		url('../fonts/NotaBene-XBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotaBene';
+	src: url('../fonts/NotaBene-Medium.eot');
+	src: url('../fonts/NotaBene-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NotaBene-Medium.woff') format('woff'),
+		url('../fonts/NotaBene-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotaBene-LightOblique';
+	src: url('../fonts/NotaBene-LightOblique.eot');
+	src: url('../fonts/NotaBene-LightOblique.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NotaBene-LightOblique.woff') format('woff'),
+		url('../fonts/NotaBene-LightOblique.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotaBene-Normal';
+	src: url('../fonts/NotaBene-Normal.eot');
+	src: url('../fonts/NotaBene-Normal.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NotaBene-Normal.woff') format('woff'),
+		url('../fonts/NotaBene-Normal.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotaBene-MediumOblique';
+	src: url('../fonts/NotaBene-MediumOblique.eot');
+	src: url('../fonts/NotaBene-MediumOblique.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NotaBene-MediumOblique.woff') format('woff'),
+		url('../fonts/NotaBene-MediumOblique.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotaBene';
+	src: url('../fonts/NotaBene-Bold.eot');
+	src: url('../fonts/NotaBene-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NotaBene-Bold.woff') format('woff'),
+		url('../fonts/NotaBene-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotaBene-NormalOblique';
+	src: url('../fonts/NotaBene-NormalOblique.eot');
+	src: url('../fonts/NotaBene-NormalOblique.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NotaBene-NormalOblique.woff') format('woff'),
+		url('../fonts/NotaBene-NormalOblique.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotaBene';
+	src: url('../fonts/NotaBene-Light.eot');
+	src: url('../fonts/NotaBene-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NotaBene-Light.woff') format('woff'),
+		url('../fonts/NotaBene-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotaBene-BoldOblique';
+	src: url('../fonts/NotaBene-BoldOblique.eot');
+	src: url('../fonts/NotaBene-BoldOblique.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NotaBene-BoldOblique.woff') format('woff'),
+		url('../fonts/NotaBene-BoldOblique.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotaBene';
+	src: url('../fonts/NotaBene-Thin.eot');
+	src: url('../fonts/NotaBene-Thin.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NotaBene-Thin.woff') format('woff'),
+		url('../fonts/NotaBene-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+.NotaBene-XBoldOblique {
+    font-family: 'NotaBene-XBoldOblique';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.NotaBene-XLight{
+    font-family: 'NotaBene-XLight';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.NotaBene-ThinOblique {
+    font-family: 'NotaBene-ThinOblique';
+    font-weight: 100;
+    font-style: normal;
+}
+
+.NotaBene-XLightOblique{
+	font-family: 'NotaBene-XLightOblique';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.NotaBene-XBold{
+	font-family: 'NotaBene-XBold';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.NotaBene-Medium{
+	font-family: 'NotaBene';
+    font-weight: 500;
+    font-style: normal;
+}
+
+.NotaBene-LightOblique{
+	font-family: 'NotaBene-LightOblique';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.NotaBene-Normal{
+	font-family: 'NotaBene-Normal';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.NotaBene-MediumOblique{
+	font-family: 'NotaBene-MediumOblique';
+    font-weight: 500;
+    font-style: normal;
+}
+
+.NotaBene-Bold{
+	font-family: 'NotaBene';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.NotaBene-NormalOblique{
+	font-family: 'NotaBene-NormalOblique';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.NotaBene-Light{
+	font-family: 'NotaBene';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.NotaBene-BoldOblique{
+	font-family: 'NotaBene-BoldOblique';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.NotaBene-Thin{
+	font-family: 'NotaBene';
+    font-weight: 100;
+    font-style: normal;
+}
+
+.Open-Sans{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.row {
+    margin-right: 350px;
+    margin-left: 350px;
+}
+
+
+.Head{
+	width: 100%;
+    height: 70rem;
+    padding-top: 2rem;
+    display: block;
+    background: url(../img/fonts.png) no-repeat;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+    background-size: cover;
+    border-bottom: 2rem solid #26c6da;
+    .shapka {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 5rem;
+	}
+	&_logo{
+		display: inline-block;
+    	width: 20rem;
+	}
+	ul{
+		display: inline-block;
+		margin-left: 10rem;
+   		vertical-align: top;
+		.menu{
+			.Open-Sans;
+			text-transform: uppercase;
+		    text-align: right;
+    		display: inline-block;
+    		color: #fff;
+    		margin-left: 3rem;
+    		font-size: 1.6rem;
+    		padding-bottom: 1.5rem;
+    		&:hover{
+    				cursor:pointer;
+    				border-bottom: 2px solid #26c6da;
+    				&:last-child{
+    					border-bottom: none;
+    				}
+    		}
+		}
+	}
+	.slider_container {
+		width: 100%;
+		height: 50rem;
+		display: block;
+		position: relative;
+		margin-top: 10rem;
+		color: #fff;
+		overflow: hidden;
+		h2 {
+			.NotaBene-XLightOblique;
+		    line-height: 8rem;
+		    font-size: 12rem;
+		    span {
+		    	.NotaBene-BoldOblique;
+			   	font-size: 8rem;
+			   	}
+			p{
+				.NotaBene-Normal;
+				font-size: 3rem;
+    			margin-top: 0rem;
+			}
+		}
+		h3{
+			.NotaBene-Medium;
+			font-size: 3.5rem;
+			margin-top: -1rem;
+		    border-bottom: 2px solid #fff;
+		    padding-bottom: 1rem;
+		    width: 60%;
+		}
+		.items{
+			position: absolute;
+		    left: 0;
+		    top: 0;
+		    width: 100%;
+		    height: 100%;
+		    height: 100px;
+		    margin: 0;
+		    padding: 0; 
+		}
+		.intem{
+		    width: 300px;
+		    height: 100px;
+		    float: left;
+		    list-style: none;
+		    margin: 0;
+		    padding: 0;
+		    background: #ff0000;
+		}
+	}
+	.slider_nav span {
+	    transition: all .6s;
+	    background: #fff;
+	    margin: 10px 10px;
+	    height: 10px;
+	    width: 10px;
+	    border-radius: 50%;
+	    border: none;
+	    display: inline-block;
+	}
+
+	.slider_nav .point {
+    	transform: scale(1.6);
+    	background-color: #1aa4b5;
+	}
+}
+
+
+.About{
+	position:relative;
+	display: block;
+	width: 100%;
+	height: 75rem;
+	background-color:#fafafa;
+	&-us{
+		position: relative;
+    	display: inline-block;
+    	width: 65%;
+    	margin-top: 5rem;
+		h3{
+		.NotaBene-Medium;
+		font-size: 4rem;
+		text-transform: uppercase;
+		color:#363636;
+		}
+		h4{
+			.NotaBene-Medium;
+			color:#777777;
+			font-size: 1.8rem;
+		}
+		p{
+			.NotaBene-Normal;
+			color:#adadad;
+			font-size: 1.46rem;
+			span{
+				.NotaBene-NormalOblique;
+				color:#1aa4b5;
+				border-bottom:1px solid #1aa4b5;
+			}
+		}
+		h5{
+			.NotaBene-Normal;
+			color:#163337;
+			font-size: 2.4rem;
+			margin-bottom: 2rem;
+		}
+		.University{
+			display: block;
+			padding-left: 0;
+			li{
+			    display: block;
+			    height: 8rem;
+			    background-color: #fff;
+			    margin: 2px;
+			    box-shadow: 0px 1px 4px -2px #333;
+			    .icons{
+			    	display: inline-block;
+			    	width: 5rem;
+			    	height: 5rem;
+			    	position:absolute;
+			    	background-color:#26c6da;
+			    	border-radius:50%;
+			    	text-align: center;
+			    	line-height: 8rem;
+			    	margin-left: 2rem;
+			    	margin-top:1.5rem;
+			    	i.fa.fa-university{
+			    		font-size: 2rem;
+					    position: absolute;
+					    color: #fff;
+					    top: 1.3rem;
+					    left: 1.4rem;
+			    	}
+			    }
+			    h6{
+			    	.NotaBene-Normal;
+			    	display: inline-block;
+				    color: #565656;
+				    width: 80%;
+				    font-size: 1.6rem;
+				    margin-top: 2.2rem;
+				    margin-left: 10rem;
+				    b{
+				    	.NotaBene-Medium;
+				    	color:#565656;
+				    }
+			    }
+			}
+		}
+	}
+	.Video_post{
+		width: 30%;
+	    position: relative;
+	    display: inline-block;
+	    height: 60rem;
+	    margin-left: 2rem;
+	    h3{
+	    	.NotaBene-Medium;
+			font-size: 4rem;
+			text-transform: uppercase;
+			color:#363636;
+			margin-bottom: 5rem;
+	    }
+	    .consol{
+	    	display: block;
+   			width: 100%;
+    		height: 45rem;
+    		background-color: #1aa4b5;
+    		img.zacaz {
+			    width: 98%;
+			    margin-left: 4px;
+			    cursor:pointer;
+			    height: 25rem;
+			}
+			h4{
+				.Open-Sans;
+				color:#fff;
+				margin-left: 3rem;
+			    font-size: 1.7rem;
+			    width: 80%;
+			    padding-bottom: 2rem;
+			    border-bottom: 1px solid;
+			}
+			p{
+				.NotaBene-Normal;
+				margin-left: 3rem;
+			    width: 80%;
+			    font-size: 1.5rem;
+			    color: #fff;
+			}
+			h5{
+				.NotaBene-NormalOblique;
+				color: #fff;
+			    margin-left: 3rem;
+			    font-size: 1.5rem;
+			    width: 24%;
+   				border-bottom: 1px solid #fff;
+   				cursor:pointer;
+			}
+	    }
+	}
+}
+
+.services {
+    width: 100%;
+    height: 130rem;
+    position: relative;
+    display: block;
+    padding-top: 5rem;
+    background: url(../img/Pic_fons.png) no-repeat center center;
+    background-size:cover;
+    color:#fff;
+    text-align: center;
+    h5{
+    	.NotaBene-Normal;
+    	font-size: 4rem;
+    }
+    h2{
+    	.NotaBene-LightOblique;
+    	font-size: 7rem;
+    	text-transform: uppercase;
+    	span{
+    		.NotaBene-MediumOblique;
+    	}
+    }
+    ul{
+    	padding-left: 0;
+    	li{
+    		vertical-align: top;
+    		display: inline-block;
+    		width: 35rem;
+    		height: 35rem;
+    		margin: 1rem;
+    		background-color:#fff;
+    		color:#434343;
+    		box-shadow: 0px 5px 10px 0px rgba(12, 40, 43, 0.42);
+    		.Icone{
+    			position: absolute;
+			    padding-top: 4rem;
+			    margin-left: -3rem;
+    		}
+    		h3{
+    			.NotaBene-Normal;
+    			padding-top: 14rem;
+    			font-size: 2rem;
+    		}
+    		p{
+    			.NotaBene-LightOblique;
+    			font-size: 1.6rem;
+			    padding-right: 3rem;
+			    padding-left: 3rem;
+    		}
+    		a{
+    			.NotaBene-Normal;
+    			font-size: 1.2rem;
+    			color:#434343;
+    			display: block;
+    			margin-top: 3rem;
+    			opacity: .6;
+    			&:hover{
+    				opacity:1;
+    			}
+    			i{
+    				text-decoration: none;
+    				font-size: 1rem;
+    			}
+    		}
+    	}
+    }
+    .request{
+    		.Open-Sans;
+			position: relative;
+		    display: block;
+		    width: 25rem;
+		    margin: 0 auto;
+		    margin-top: 5rem;
+		    line-height: 5rem;
+		    text-transform: uppercase;
+		    text-decoration: none;
+		    font-size: 1.5rem;
+		    height: 5rem;
+		    background-color: #dce775;
+		    opacity:1;
+		    &:hover{
+		    	opacity:0.8;
+		    }
+    	}
+}
+
+.last{
+	width: 100%;
+	height: 70rem;
+	padding-top: 10rem;
+	border-bottom: 2px solid #1aa4b5;
+	.latest{
+		width: 65%;
+	    display: inline-block;
+	    position: relative;
+	    height: 70rem;
+		h3{
+			.NotaBene-Medium;
+			font-size: 4rem;
+	    	text-transform: uppercase;
+	    	color: #363636;
+		}
+
+		.reqes {
+			margin-bottom: 3rem;
+		    width: 100%;
+		    height: 22rem;
+		    display: inline-block;
+		    background-color: #1aa4b5;
+		    img{
+				width: 35%;
+				display: inline-block;
+				height: 100%;
+			}
+			.reqest{
+				display: inline-block;
+    			width: 60%;
+    			color:#fff;
+    			vertical-align: top;
+    			h4{
+    				.Open-Sans;
+    				font-size: 2rem;
+				    margin-left: 3rem;
+				    width: 90%;
+				    border-bottom: 1px solid #fff;
+    				padding-bottom: 2rem;
+    				padding-right: 3rem;
+    			}
+    			p{
+					padding-left: 3rem;
+					font-size: 1.5rem;
+					.NotaBene-Normal;
+					line-height:2rem;
+    			}
+    			&:hover{
+    				h4{
+    					border-bottom: 1px solid rgba(255,255,255,.2);
+    				}
+    			}
+			}
+		}
+	}
+
+	.twit{
+			position: relative;
+		    display: inline-block;
+		    width: 30%;
+		    height: 70rem;
+		    vertical-align: top;
+		    margin-left: 2rem;
+		    h3{
+				.NotaBene-Medium;
+				font-size: 4rem;
+	    		text-transform: uppercase;
+	    		color: #363636;
+		    }
+		    .box{
+				padding:2rem;
+				padding-top: 1rem;
+				width: 100%;
+			    height: 45rem;
+			    background-color: #fafafa;
+			    display: block;
+			    .contexts{
+			    	border-bottom: 2px solid rgba(0,0,0,0.1);
+    				padding-bottom: 1rem;
+			    	p{
+			    		.NotaBene-Normal;
+			    		font-size: 1.7rem;
+			    	}
+			    	a{
+			    		.NotaBene-NormalOblique;
+			    		font-size: 1.5rem;
+			    		color:#0b9bad;
+			    		padding-bottom: 1rem;
+			    		display: block;
+    					padding-bottom: 1rem;
+			    	}
+			    	span{
+			    		font-size: 1.5rem;
+			    	}
+			    }
+			    
+		    }
+	}
+}
+
+
+.Dert{
+	width: 100%;
+	height: 10rem;
+	margin-top: 5rem;
+	.info_last{
+		width: 50%;
+		display: inline-block;
+		p{
+			.NotaBene-Normal;
+			font-style: normal;
+		    color: #adadad;
+		    font-size: 1.46rem;
+		    span{
+		    	color: #1aa4b5;
+    			border-bottom: 1px solid #1aa4b5;
+		    }
+		}
+	}
+	.info_lasted{
+		width: 20%;
+		display: inline-block;
+		text-align: right;
+		p{
+			.NotaBene-Normal;
+			font-style: normal;
+		    color: #adadad;
+		    font-size: 1.46rem;
+		    position: absolute;
+    		right: 36rem;
+    		margin-top: -3rem;
+		}
+	}
+}
+
+@media (max-width:1366px) {
+	.row{
+		margin-right: 200px;
+    	margin-left: 200px;
+	}
+	.Head ul {
+		display: block;
+    	vertical-align: top;
+    	text-align: center;
+
+    	.menu{
+    		padding-top: 2rem;
+    		font-size: 1.5rem;
+    	}
+	}
+	.About .Video_post .consol {
+		height: 47rem;
+
+		h5{
+			width: 28%;
+		}
+	}
+	.services {
+		height: 160rem;
+	}
+	.last .twit .box .contexts p {
+		margin-bottom: 1rem;
+    	margin-top: 1rem;
+	}
+}
+
+@media (max-width:1280px){
+	row{
+		margin-right: 150px;
+		margin-left: 150px;
+	}
+	.Head ul .menu {
+		font-size: 1.3rem;
+	}
+	.About .Video_post .consol {
+		height: 47rem;
+    	width: 110%;
+    	h5{
+			width: 31%;
+    	}
+	}
+	.last .twit h3 {
+		width: 110%;
+	}
+	.Dert .info_lasted p {
+		right: 16rem;
+	}
+} 
+
+@media (max-width:1024px){
+	.row {
+    	margin-right: 150px;
+    	margin-left: 150px;
+	}
+	html{
+		font-size: 8px;
+	}
+	.Head{
+		background: url(../img/fonts.png) no-repeat 30%;
+	}
+	.Head ul {
+		width: 100%;
+    	margin-left: 0rem;
+    	.menu{
+    		font-size: 1.5rem;
+    		margin-right: 2rem;
+    		margin-left:0;
+    	}
+	}
+	.Dert .info_last p {
+		line-height: 2rem;
+	}
+}
+
+
+@media only screen and (max-width:768px){
+	.row{
+		margin-right: 100px;
+		margin-left: 100px;
+	} 
+}
+
+@media only screen and (max-width:568px){
+	.row{
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+}
+
+@media only screen and (max-width:375px){
+	html{
+		font-size: 7rem;
+	}
+	.Head {
+		height: 75rem;
+	}
+}
